@@ -31,6 +31,7 @@ def create_app(config_name):
     configure_uploads(app,photos)
     mail.init_app(app)
     
-
+    with app.app_context():
+        db.create_all()
 
     return app
