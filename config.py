@@ -15,7 +15,7 @@ class Config:
     MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
 
 class ProdConfig(Config):
-      SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL")
+      SQLALCHEMY_DATABASE_URI = os.getenv("PRODUCTION_DATABASE_URL")
 
 
 class DevConfig(Config):
