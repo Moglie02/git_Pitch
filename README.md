@@ -1,5 +1,6 @@
-# Pitch-world
-# pitch-world
+
+# git-pitch
+
 ## Author
 
 [Moglie02](https://github.com/Moglie02)
@@ -8,7 +9,7 @@
 This  is a flask application that allows users to post one minute pitches and also allows other users who have signed up to comment and upvote or downvote a pitch. It also allows a person to signup to be able to access the functionalities of the application
 
 ## Live Link
-[View Site](https://pitchworld2.herokuapp.com)
+[View Site]()
 
 ## Screenshot
 
